@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title> MetaHorizon</title>
-  <link rel="icon" href="/7월/2주차/html/클론페이지/image/mainLogo.png" type="image/png">
+  <link rel="icon" href="image/mainLogo.png" type="image/png">
   <style>
     * {
       margin: 0;
@@ -472,7 +472,7 @@
 <body>
   <header class="site-header">
     <div class="logo">
-      <img src="/7월/2주차/html/클론페이지/image/Lockup.svg" alt="Logo">
+      <img src="image/Lockup.svg" alt="Logo">
     </div>
     <div class="login">
       <a href="/login" class="btn-login">로그인</a>
@@ -481,14 +481,14 @@
 
   <section class="hero-section">
     <video class="hero-video" autoplay muted loop playsinline controls>
-      <source src="/7월/2주차/html/클론페이지/video/MetaHorizonvideo.mp4" type="video/mp4" />
+      <source src="video/MetaHorizonvideo.mp4" type="video/mp4" />
       브라우저가 video 태그를 지원하지 않습니다.
     </video>
 
     <div class="hero-overlay">
       <div class="store-buttons">
-        <img src="/7월/2주차/html/클론페이지/image/appstore.png" alt="App Store" onclick="openModal1()" />
-        <img src="/7월/2주차/html/클론페이지/image/googleplay.png" alt="Google Play" onclick="openModal2()" />
+        <img src="image/appstore.png" alt="App Store" onclick="openModal1()" />
+        <img src="image/googleplay.png" alt="Google Play" onclick="openModal2()" />
       </div>
     </div>
   </section>
@@ -497,7 +497,7 @@
   <div id="qrModal" class="qr-modal">
     <div class="qr-modal-content">
       <p>지금 바로 <strong>Meta Horizon</strong> 앱을 다운로드해 보세요.</p>
-      <img src="/7월/2주차/html/클론페이지/image/appsotredownload.png" alt="QR 코드" class="qr-image" />
+      <img src="image/appsotredownload.png" alt="QR 코드" class="qr-image" />
       <button class="close-btn" onclick="closeModal1()">닫기</button>
     </div>
   </div>
@@ -506,7 +506,7 @@
   <div id="qrModal2" class="qr-modal2">
     <div class="qr-modal-content2">
       <p>지금 바로 <strong>Meta Horizon</strong> 앱을 다운로드해 보세요.</p>
-      <img src="/7월/2주차/html/클론페이지/image/googledownload.png" alt="QR 코드" class="qr-image2" />
+      <img src="image/googledownload.png" alt="QR 코드" class="qr-image2" />
       <button class="close-btn2" onclick="closeModal2()">닫기</button>
     </div>
   </div>
@@ -591,7 +591,7 @@
   <footer class="footer">
   <div class="footer-top">
     <div class="footer-logo">
-      <img src="/7월/2주차/html/클론페이지/image/Lockup.svg" alt="Meta Horizon" />
+      <img src="image/Lockup.svg" alt="Meta Horizon" />
     </div>
     <div class="footer-links">
       <div>
@@ -618,26 +618,26 @@
 
   <script>
 const gameList = [
-  { title: "밈 타이쿤", image: "/7월/2주차/html/클론페이지/image2/1.png", likes: 530 },
-  { title: "점프 로프 챌린지-오징어 게임", image: "/7월/2주차/html/클론페이지/image2/2.png", likes: 404 },
-  { title: "빅 짐의 빅 짐 심", image: "/7월/2주차/html/클론페이지/image2/3.png", likes: "1K"},
-  { title: "쥬라기 아웃런", image: "/7월/2주차/html/클론페이지/image2/4.png", likes: "3.1K" },
-  { title: "자신을 예이트하세요", image: "/7월/2주차/html/클론페이지/image2/5.png", likes: "5.5K" },
-  { title: "소방구조 불꽃놀이 축제!", image: "/7월/2주차/html/클론페이지/image2/6.png", likes: "6.2K" },
-  { title: "독극물 테디의 숨바꼭질", image: "/7월/2주차/html/클론페이지/image2/7.png", likes: "10.1K" },
-  { title: "VR 고등학교", image: "/7월/2주차/html/클론페이지/image2/8.png", likes: "5.6K" },
-  { title: "소름 돋는 오두막", image: "/7월/2주차/html/클론페이지/image2/9.png", likes: 605 },
-  { title: "글래스 비릿지 모바일", image: "/7월/2주차/html/클론페이지/image2/10.png", likes: "15.8K" },
-  { title: "크라켄", image: "/7월/2주차/html/클론페이지/image2/11.png", likes: 816 },
-  { title: "슈퍼 럼블 로켓 러커스", image: "/7월/2주차/html/클론페이지/image2/12.png", likes: "3.2K" },
-  { title: "오징어 밍글 게임", image: "/7월/2주차/html/클론페이지/image2/13.png", likes: "13.8K" },
-  { title: "유령의 집", image: "/7월/2주차/html/클론페이지/image2/14.png", likes: "4.5K" },
-  { title: "비누석 코미디-하날레이 만", image: "/7월/2주차/html/클론페이지/image2/15.png", likes: "1.3K" },
-  { title: "드림 리퍼-마법의 하늘", image: "/7월/2주차/html/클론페이지/image2/16.png", likes: "20K" },
-  { title: "괴수 시티 쇼다운", image: "/7월/2주차/html/클론페이지/image2/17.png", likes: "44.6K" },
-  { title: "RP 항공모함 CVN65", image: "/7월/2주차/html/클론페이지/image2/18.png", likes: "14.5K" },
-  { title: "성", image: "/7월/2주차/html/클론페이지/image2/19.png", likes: "25.1K" },
-  { title: "피자 키친", image: "/7월/2주차/html/클론페이지/image2/20.png", likes: "1K" }
+  { title: "밈 타이쿤", image: "image2/1.png", likes: 530 },
+  { title: "점프 로프 챌린지-오징어 게임", image: "image2/2.png", likes: 404 },
+  { title: "빅 짐의 빅 짐 심", image: "image2/3.png", likes: "1K"},
+  { title: "쥬라기 아웃런", image: "image2/4.png", likes: "3.1K" },
+  { title: "자신을 예이트하세요", image: "image2/5.png", likes: "5.5K" },
+  { title: "소방구조 불꽃놀이 축제!", image: "image2/6.png", likes: "6.2K" },
+  { title: "독극물 테디의 숨바꼭질", image: "image2/7.png", likes: "10.1K" },
+  { title: "VR 고등학교", image: "image2/8.png", likes: "5.6K" },
+  { title: "소름 돋는 오두막", image: "image2/9.png", likes: 605 },
+  { title: "글래스 비릿지 모바일", image: "image2/10.png", likes: "15.8K" },
+  { title: "크라켄", image: "image2/11.png", likes: 816 },
+  { title: "슈퍼 럼블 로켓 러커스", image: "image2/12.png", likes: "3.2K" },
+  { title: "오징어 밍글 게임", image: "image2/13.png", likes: "13.8K" },
+  { title: "유령의 집", image: "image2/14.png", likes: "4.5K" },
+  { title: "비누석 코미디-하날레이 만", image: "image2/15.png", likes: "1.3K" },
+  { title: "드림 리퍼-마법의 하늘", image: "image2/16.png", likes: "20K" },
+  { title: "괴수 시티 쇼다운", image: "image2/17.png", likes: "44.6K" },
+  { title: "RP 항공모함 CVN65", image: "image2/18.png", likes: "14.5K" },
+  { title: "성", image: "image2/19.png", likes: "25.1K" },
+  { title: "피자 키친", image: "image2/20.png", likes: "1K" }
 ];
 
 
@@ -656,26 +656,26 @@ gameList.forEach((game, index) => {
 });
 
 const gameList2 = [
-  { title: "META COURT 2.0", image: "/7월/2주차/html/클론페이지/image3/1.png", likes: "16.5K"  },
-  { title: "Arena Clash HUB", image: "/7월/2주차/html/클론페이지/image3/2.png" , likes: "1.4K" },
-  { title: "Horizon Worlds....", image: "/7월/2주차/html/클론페이지/image3/3.png" , likes: 31 },
-  { title: "Block XR....", image: "/7월/2주차/html/클론페이지/image3/4.png", likes: "1.3K" },
-  { title: "DUCK DUCK DOOM", image: "/7월/2주차/html/클론페이지/image3/5.png", likes: 553  },
-  { title: "Mommys Malibu...", image: "/7월/2주차/html/클론페이지/image3/6.png", likes: 100  },
-  { title: "FAMILY FEUD....", image: "/7월/2주차/html/클론페이지/image3/7.png", likes: "10k" },
-  { title: "The Doom Game", image: "/7월/2주차/html/클론페이지/image3/8.png", likes: "1.7K" },
-  { title: "(New) Meta Kong", image: "/7월/2주차/html/클론페이지/image3/9.png", likes: "20.4K" },
-  { title: "Horizon....", image: "/7월/2주차/html/클론페이지/image3/10.png", likes: 32},
-  { title: "Horizon Mixed... ", image: "/7월/2주차/html/클론페이지/image3/11.png", likes: 101  },
-  { title: "Serenity Island", image: "/7월/2주차/html/클론페이지/image3/12.png" , likes: "8.32K" },
-  { title: "Vr High School ✅", image: "/7월/2주차/html/클론페이지/image3/13.png" , likes: 199 },
-  { title: "Capybara Cafe", image: "/7월/2주차/html/클론페이지/image3/14.png" , likes: "8.1K" },
-  { title: "Majestic Falls", image: "/7월/2주차/html/클론페이지/image3/15.png", likes: "9.1K" },
-  { title: "Brian's House...  ", image: "/7월/2주차/html/클론페이지/image3/16.png", likes: "10.1K"  },
-  { title: "SUMMER SIZZLE!!... ", image: "/7월/2주차/html/클론페이지/image3/17.png", likes: "5.25K" },
-  { title: "Cooking With...  ", image: "/7월/2주차/html/클론페이지/image3/18.png" , likes: "8.7K" },
-  { title: "Taco Party  ", image: "/7월/2주차/html/클론페이지/image3/19.png" , likes: "10.2K" },
-  { title: "Nebula  ", image: "/7월/2주차/html/클론페이지/image3/20.png", likes: 101 }
+  { title: "META COURT 2.0", image: "image3/1.png", likes: "16.5K"  },
+  { title: "Arena Clash HUB", image: "image3/2.png" , likes: "1.4K" },
+  { title: "Horizon Worlds....", image: "image3/3.png" , likes: 31 },
+  { title: "Block XR....", image: "image3/4.png", likes: "1.3K" },
+  { title: "DUCK DUCK DOOM", image: "image3/5.png", likes: 553  },
+  { title: "Mommys Malibu...", image: "image3/6.png", likes: 100  },
+  { title: "FAMILY FEUD....", image: "image3/7.png", likes: "10k" },
+  { title: "The Doom Game", image: "image3/8.png", likes: "1.7K" },
+  { title: "(New) Meta Kong", image: "image3/9.png", likes: "20.4K" },
+  { title: "Horizon....", image: "image3/10.png", likes: 32},
+  { title: "Horizon Mixed... ", image: "image3/11.png", likes: 101  },
+  { title: "Serenity Island", image: "image3/12.png" , likes: "8.32K" },
+  { title: "Vr High School ✅", image: "image3/13.png" , likes: 199 },
+  { title: "Capybara Cafe", image: "image3/14.png" , likes: "8.1K" },
+  { title: "Majestic Falls", image: "image3/15.png", likes: "9.1K" },
+  { title: "Brian's House...  ", image: "image3/16.png", likes: "10.1K"  },
+  { title: "SUMMER SIZZLE!!... ", image: "image3/17.png", likes: "5.25K" },
+  { title: "Cooking With...  ", image: "image3/18.png" , likes: "8.7K" },
+  { title: "Taco Party  ", image: "/image3/19.png" , likes: "10.2K" },
+  { title: "Nebula  ", image: "image3/20.png", likes: 101 }
 ];
 
 
@@ -692,12 +692,12 @@ gameList2.forEach((game) => {
 });
 
 const gameList3 = [
-  { title: "Game Fun Series!", image: "/7월/2주차/html/클론페이지/image4/1.png", likes: "🗓️다음 이벤트 : 내일 5:00", uh: "관심있음 : 1.5K명"  },
-  { title: "Living Hope VR Church", image: "/7월/2주차/html/클론페이지/image4/2.png" , likes: "🗓️다음 이벤트 : 7월 13일 9:45",uh: "관심있음 : 434명"  },
-  { title: "Grand Opening of Hot Skates Sk8 i...", image: "/7월/2주차/html/클론페이지/image4/3.png" , likes: "🗓️다음 이벤트 : 내일 3:00",uh: "관심있음 : 65명" },
-  { title: "Retail Rush", image: "/7월/2주차/html/클론페이지/image4/4.png", likes: "🗓️다음 이벤트 : 7월 11일 8:00",uh: "관심있음 : 13명" },
-  { title: "Fruity Tournament", image: "/7월/2주차/html/클론페이지/image4/5.png", likes: "🗓️다음 이벤트 : 7월 12일 4:00",uh: "관심있음 : 10명" },
-  { title: "Real Tree Climb: Scavenger Hunt", image: "/7월/2주차/html/클론페이지/image4/6.png", likes: "🗓️다음 이벤트 : 7월 11일 23:00",uh: "관심있음 : 2명" },
+  { title: "Game Fun Series!", image: "image4/1.png", likes: "🗓️다음 이벤트 : 내일 5:00", uh: "관심있음 : 1.5K명"  },
+  { title: "Living Hope VR Church", image: "image4/2.png" , likes: "🗓️다음 이벤트 : 7월 13일 9:45",uh: "관심있음 : 434명"  },
+  { title: "Grand Opening of Hot Skates Sk8 i...", image: "image4/3.png" , likes: "🗓️다음 이벤트 : 내일 3:00",uh: "관심있음 : 65명" },
+  { title: "Retail Rush", image: "image4/4.png", likes: "🗓️다음 이벤트 : 7월 11일 8:00",uh: "관심있음 : 13명" },
+  { title: "Fruity Tournament", image: "image4/5.png", likes: "🗓️다음 이벤트 : 7월 12일 4:00",uh: "관심있음 : 10명" },
+  { title: "Real Tree Climb: Scavenger Hunt", image: "image4/6.png", likes: "🗓️다음 이벤트 : 7월 11일 23:00",uh: "관심있음 : 2명" },
 
 ];
 const container3 = document.getElementById("cardContainer3");
