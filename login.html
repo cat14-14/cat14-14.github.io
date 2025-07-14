@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta</title>
+    <link rel="icon" href="/image/image.png" type="image/png" style="width: 20px;">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .login-container {
+        text-align: center;
+    }
+    .logo{
+        margin: 20px auto;
+        display: inline-block;
+        margin-top: 115px;
+    }
+    .logo img{
+        width: 260px;
+        height: 130px;
+    }
+    .login-text{
+        font-size: 17px;
+        text-align: center;
+        margin-left: -10px;
+        margin-bottom: 30px;
+    }
+    .facebook-login, .instagram-login, .email-login {
+        max-width: 525px;
+        margin: 12px auto;
+        padding: 13px 20px;
+        border: 1px solid #dadde1;
+        border-radius: 20px;
+        background: white;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 16px;
+        font-weight: 500;
+        color: #1c1e21;
+        transition: all 0.2s ease;
+    }
+    
+    .facebook-login:hover, .instagram-login:hover, .email-login:hover {
+        background-color: #f8f9fa;
+        border-color: #c4c8cc;
+    }
+    
+    .login-button-content {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    .email-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .facebook-icon{
+        width: 20px;
+        height: 20px;
+        overflow: hidden;
+    }
+    .instagram-icon{
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+        margin-left: -5px;
+    }
+    .arrow {
+        color: #65676b;
+        font-size: 18px;
+    }
+        .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #f8f9fa;
+        padding: 20px;
+        text-align: center;
+        color: #65676b;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .link{
+        color: #5A5A5A;
+        text-decoration: none; /* 밑줄 제거 (필요시) */
+    }
+    .link :hover{
+          text-decoration: underline; /* 마우스 오버 시 밑줄 */
+    }
+    .site-header {
+      position: fixed;
+      width: 100%;
+      height: 43px; /* 또는 원하는 높이 */
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      display: flex;
+      padding: 16px 0;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000; /* 다른 요소 위에 보이도록 설정 */
+    }
+
+    .header-logo {
+      margin-left: 40px;
+    }
+</style>
+<body>
+      <header class="site-header">
+    <div class="header-logo">
+        <a href="/index.html">
+            <img src="image/Lockup.svg" alt="Logo">
+        </a>
+    </div>
+    </header>
+    <div class="login-container">
+        <div class="logo">
+            <img src="/image/metalogo.svg.png" alt="Logo">
+        </div>
+        <div class="login-text">
+            <strong>로그인하거나 Meta 계정을 만드세요</strong>
+        </div>
+        <div class="facebook-login" onclick="handleLogin('facebook')">
+            <div class="login-button-content">
+                <img src="/image/FacebookLogo.png" class="facebook-icon">
+                <span>Facebook으로 계속하기</span>
+            </div>
+            <div class="arrow">›</div>
+        </div>
+        <div class="instagram-login" onclick="handleLogin('instagram')">
+            <div class="login-button-content">
+                <img src="/image/instagramlogo.png" class="instagram-icon">
+                <span>Instagram으로 계속하기</span>
+            </div>
+            <div class="arrow">›</div>
+        </div>
+        <div class="email-login" onclick="handleLogin('email')">
+            <div class="login-button-content">
+                <img src="/image/email.png" class="email-icon">
+                <span>이메일 주소로 계속</span>
+            </div>
+            <div class="arrow">›</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        © Meta 2025 · <a href="https://www.meta.com/legal/quest/privacy-policy/" class="link"><strong>개인정보처리방침</strong></a> · <a href="https://www.meta.com/legal/quest/terms-of-service/" class="link"><strong>약관</strong></a> · <strong>한국어</strong>
+    </div>
+    <script>
+        function handleLogin(method) {
+            switch(method) {
+                case 'facebook':
+                    alert('Facebook 로그인이 선택되었습니다.');
+                    break;
+                case 'instagram':
+                    alert('Instagram 로그인이 선택되었습니다.');
+                    break;
+                case 'email':
+                    alert('이메일 로그인이 선택되었습니다.');
+                    break;
+            }
+        }
+
+    </script>
+</body>
+</html>
